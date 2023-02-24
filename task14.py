@@ -9,3 +9,10 @@ while prod * 2 < number:
     prod = 2 ** degree
     print(prod, end = ' ')
     degree += 1
+
+
+# n = int(input())
+# i = 0
+# while 2 ** i <= n:
+#     print(2 ** i)
+#     i += 1   
