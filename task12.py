@@ -12,4 +12,12 @@ for i in range(1, 1001):
         if sum == i + j and prod == i * j:
             a = i
             b = j
-print(f'число {a} и число {b}')            
+print(f'число {a} и число {b}')   
+
+
+# x = int(input())
+# y = int(input())
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i, j)
