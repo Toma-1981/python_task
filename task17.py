@@ -1,12 +1,17 @@
 # Задача №17. 
-# Дан список чисел. Определите, сколько в нем встречается различных чисел.
+# Дан список чисел. Определите, сколько в 
+# нем встречается различных чисел.
 # Input: [1, 1, 2, 0, -1, 3, 4, 4]
 # Output: 6
-n = int(input("Введите количество чисел: "))
-k = int(input("Введите число на сколько нужно сдвинуть: "))
-my_list = [i for i in range(n)]
+import random
+
+my_list = [random.randint(0,10) for _ in range(20)]
 print(my_list)
-my_list_one = my_list[:k]
-my_list_two = my_list[k:]
-my_list_end = my_list_two + my_list_one
-print(my_list_end)
+
+new_list = []
+for item in my_list:
+    if item not in new_list:
+        new_list.append(item)
+
+print(new_list)
+print(len(new_list))           
