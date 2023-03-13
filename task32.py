@@ -14,3 +14,4 @@ for i in range(len(random_list)):
     if min_number <= random_list[i] <= max_number:
         new_list.append(i)
 print(new_list)
+
